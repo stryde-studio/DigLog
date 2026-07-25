@@ -1,4 +1,6 @@
-# DigLog — Replit Agent 4用プロンプト
+# DigLog — Replit Agent 4用プロンプト（廃止）
+
+> このプロンプトはReact Native / Expo案の検討用に作成したものです。現在のDigLogはSwiftUI / Xcodeで開発する方針のため、当日の実装には使用しません。
 
 以下の内容をReplit Agent 4に貼り付けて、DigLogのMVPを実装する。
 
