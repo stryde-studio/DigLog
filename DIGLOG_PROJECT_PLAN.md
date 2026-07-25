@@ -376,6 +376,26 @@ SwiftUI / Xcodeを中心にローカルで開発する。
 Codexを実装・統合担当、ClaudeをiOSシミュレータQA担当とする。
 最終的な仕様決定とデモの判断は人間が行う。
 
+## 使用モデル
+
+### Codex
+
+SwiftUI実装、Photos / Vision framework連携、難しいバグ修正、最終品質保証には、GPT-5.5を使用する。
+
+- 通常の実装：GPT-5.5 / High
+- 難しいVision連携やXcodeエラー：GPT-5.5 / Extraまたは最高設定
+- GPT-5.5が選択できない場合：GPT-5.3-Codex / High
+
+### Claude Code Desktop
+
+iOSシミュレータでの通常の実操作レビューにはClaude Sonnet 5を使用する。
+
+- 通常の操作レビュー：Claude Sonnet 5
+- 複雑なUI判断や原因分析：Claude Opus 4.8
+- Sonnet 5が選択できない場合：最新のSonnet
+
+Opus 4.8は、難しいレビューや長いコード確認が必要になった場合だけ使う。
+
 ## 人間（プロダクト責任者）
 
 - DigLogのコンセプトと優先順位を決める
